@@ -1,0 +1,31 @@
+Source: adkstick
+Section: misc
+Priority: optional
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+Build-Depends: debhelper (>= 9), python3
+Build-Depends-Indep: gettext
+Standards-Version: 3.9.5
+
+Package: adkstick
+Architecture: all
+Depends:
+ ${misc:Depends},
+ coreutils (>= 6.10-3),
+ gir1.2-glib-2.0,
+ gir1.2-gtk-3.0,
+ gir1.2-polkit-1.0,
+ ntfs-3g,
+ parted,
+ policykit-1,
+ procps,
+ python3,
+ python3-gi,
+ python3-parted,
+ gir1.2-udisks-2.0,
+ gir1.2-xapp-1.0,
+ util-linux,
+ exfat-utils
+Conflicts: usb-imagewriter
+Replaces: usb-imagewriter
+Description: write .img and .iso files to USB sticks
+ A GUI to write .img or .iso files to a USB Key. It can also format them.

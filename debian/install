@@ -1,0 +1,8 @@
+lib/* usr/lib/adkstick
+share/adkstick/* usr/share/adkstick
+share/applications/* usr/share/applications
+share/polkit/* usr/share/polkit-1/actions
+adkstick usr/bin
+share/nemo/actions/* usr/share/nemo/actions
+share/kde4/* /usr/share/kde4/apps/solid/actions
+share/icons/* usr/share/icons

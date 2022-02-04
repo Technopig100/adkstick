@@ -1,0 +1,9 @@
+#!/bin/sh
+#
+set -e
+
+TERM=xterm
+
+DIR=/usr/lib/adkstick
+
+$DIR/adkstick.py "$@"

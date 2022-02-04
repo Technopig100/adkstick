@@ -1,0 +1,5 @@
+#!/bin/bash
+
+intltool-extract --type=gettext/glade share/adkstick/adkstick.ui
+xgettext --language=Python --keyword=_ --keyword=N_ --output=adkstick.pot lib/adkstick.py generate_additional_files.py share/adkstick/adkstick.ui.h
+rm -f share/adkstick/adkstick.ui.h

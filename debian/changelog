@@ -1,0 +1,483 @@
+adkstick (1.4.7) una; urgency=medium
+
+  [ Musa Ünal ]
+  * Update README (#88)
+
+  [ LinuxOnTheDesktop ]
+  * Fix window title during format operation (#97)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 24 Nov 2021 14:51:58 +0000
+
+adkstick (1.4.6) uma; urgency=medium
+
+  [ nalin.x.linux ]
+  * Made accessible for users with screen reader
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 25 Jun 2021 16:32:47 +0100
+
+adkstick (1.4.5) uma; urgency=medium
+
+  [ Erdem Ersoy ]
+  * mountutils.py: Remove trailing spaces (#81)
+
+  [ Eric ]
+  * Fixed volume label entry in format mode
+
+  [ Clement Lefebvre ]
+  * remove TODO file
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 26 May 2021 13:48:24 +0100
+
+adkstick (1.4.4) ulyana; urgency=medium
+
+  * Unity: catch all exceptions
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 18 Jun 2020 14:08:31 +0100
+
+adkstick (1.4.3) ulyana; urgency=medium
+
+  * l10n: Fix generate_additional_files.py
+  * Fix GI warning
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 17 Jun 2020 17:29:55 +0100
+
+adkstick (1.4.2) ulyana; urgency=medium
+
+  [ Michael Webster ]
+  * debian/control: Depend on python3.
+
+  [ Frede Hundewadt ]
+  * fix model reference
+  * pep code standard formatting
+
+  [ Clement Lefebvre ]
+  * l10n: Update POT
+  * l10n: Generate files
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 13 May 2020 16:11:32 +0100
+
+adkstick (1.4.1) tricia; urgency=medium
+
+  [ Michael Webster ]
+  * adkstick.ui: fix some padding issues (hand-edited).
+  * all: port python2 to python3
+
+  [ Clement Lefebvre ]
+  * Fix polkit policy file
+  * Add dependency on python3-gi
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 13 Nov 2019 12:36:27 +0100
+
+adkstick (1.4.0) tina; urgency=medium
+
+  * Fix generate_additional_files
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sun, 30 Jun 2019 15:38:51 +0200
+
+adkstick (1.3.9) tessa; urgency=medium
+
+  [ Vincent Vermeulen ]
+  * Fix missing exFAT option in UI (#66)
+
+  [ Clement Lefebvre ]
+  * l10n: Update files
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 28 Nov 2018 10:43:03 +0000
+
+adkstick (1.3.8) tara; urgency=medium
+
+  * Provide a adkstick app icon
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 18 Jun 2018 10:03:18 +0200
+
+adkstick (1.3.7) tara; urgency=medium
+
+  [ NikoKrause ]
+  * accidentally swapped nemo-action icons (#65)
+
+  [ Clement Lefebvre ]
+  * Generate polkit policy with mint-common
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 30 May 2018 18:43:59 +0100
+
+adkstick (1.3.6) tara; urgency=medium
+
+  [ Clement Lefebvre ]
+  * Fix https://bugs.launchpad.net/linuxmint/+bug/1177510
+  * Pkexec fixes.
+
+  [ PaulXiCao ]
+  * issue #46: Format: center progress bar so it's aligned with volume name (#63)
+
+  [ NikoKrause ]
+  * use symbolic icons for nemo actions (#64)
+
+  [ Vincent Vermeulen ]
+  * Add exFAT format option (#62)
+
+  [ Clement Lefebvre ]
+  * l10n: Update files
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 07 May 2018 13:14:16 +0100
+
+adkstick (1.3.5) sylvia; urgency=medium
+
+  [ Paul Jähne ]
+  * Use Mimetypes instead of Extensions
+
+  [ monsta ]
+  * fix runtime dependencies
+  * drop obsolete translations from debian/ dir
+
+  [ Clement Lefebvre ]
+  * Implement support for window-progress
+  * Add missing dependency
+  * l10n: Update desktop files
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sat, 04 Nov 2017 11:43:59 +0000
+
+adkstick (1.3.4) sonya; urgency=medium
+
+  [ NikoKrause ]
+  * add translations for legitimation/policy (#56)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 19 Jun 2017 12:38:20 +0200
+
+adkstick (1.3.3) sonya; urgency=medium
+
+  [ Michael Webster ]
+  * Follow label length and content rules in the label entry widget. Also, pause the udisk listener while formatting so the target device is shown throughout the format process.
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 08 May 2017 16:14:34 +0100
+
+adkstick (1.3.2) sonya; urgency=medium
+
+  [ Fred Barclay ]
+  * Removed github doc notice
+
+  [ Clement Lefebvre ]
+  * l10n: Update translations
+  * l10n: Generate additional files
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sun, 07 May 2017 12:24:29 +0100
+
+adkstick (1.3.1) serena; urgency=medium
+
+  [ Fred Barclay ]
+  * Added more usage details and available commands to the man page. Rather than only directing users to the GitHub repo, the man page now contains the basic command options for adkstick.
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sat, 10 Dec 2016 12:45:11 +0000
+
+adkstick (1.3.0) serena; urgency=medium
+
+  * Fix min content height for scrolledwindow widgets
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 08 Dec 2016 14:12:03 +0000
+
+adkstick (1.2.9) serena; urgency=medium
+
+  * Fix formatting in Mint 18
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 25 Nov 2016 22:37:29 +0000
+
+adkstick (1.2.8) sarah; urgency=medium
+
+  * Updated generated files
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 22 Apr 2016 10:37:34 +0100
+
+adkstick (1.2.7) sarah; urgency=medium
+
+  [ Michael Webster ]
+  * Update to use udisks2
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 17 Feb 2016 10:54:30 +0000
+
+adkstick (1.2.6) rosa; urgency=medium
+
+  [ James Lu ]
+  * raw_format: fix shell command injection (#42)
+
+  [ Clement Lefebvre ]
+  * Fixed makepot
+  * Updated desktop files
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 06 Nov 2015 16:48:40 +0000
+
+adkstick (1.2.5) rafaela; urgency=medium
+
+  [ Clement Lefebvre ]
+  * Specify python version in shebangs
+  * Specified python version in a few remaining places
+
+  [ Silviu C ]
+  * add integration with Ubuntu Unity
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sun, 14 Jun 2015 12:47:20 +0200
+
+adkstick (1.2.4) betsy; urgency=medium
+
+  * Fixed localization (setlocale can crash the app)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 07 Apr 2015 17:04:24 +0200
+
+adkstick (1.2.3) betsy; urgency=medium
+
+  [ Frédéric Gaudet ]
+  * Add boot flag
+  * Align end partition
+
+  [ Clement Lefebvre ]
+  * Filter devices using DeviceIsDrive rather than IsRemovable.. less strict and exposes external HDDs, but some vendors of USB sticks don't properly set their flags so we don't have much choice here
+  * Improved device names (vendor info added, recognize size all the way to TB)
+  * Fixed mistake in Fred's last commit
+  * Fixed indentation and end-line space characters
+  * Fix 100% CPU issues
+  * Remove all lag (Update the progressbar on idle and only when required)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 30 Mar 2015 15:11:02 +0200
+
+adkstick (1.2.2) rebecca; urgency=medium
+
+  * Updated Debian files
+  * ISO Writer: Show percentage in the window title
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 03 Nov 2014 22:03:32 +0100
+
+adkstick (1.2.1) qiana; urgency=medium
+
+  * Updated additional files
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sun, 04 May 2014 15:01:07 +0100
+
+adkstick (1.2.0) qiana; urgency=medium
+
+  * Set correct root uid and gid when formatting to ext4.
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 14 Apr 2014 12:38:13 +0100
+
+adkstick (1.1.9) petra; urgency=low
+
+  * Removed icons in format/write buttons, looked out of place in Petra
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 16 Dec 2013 13:57:05 +0000
+
+adkstick (1.1.8) petra; urgency=low
+
+  * Yet another fix to threading :)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 25 Nov 2013 19:27:17 +0000
+
+adkstick (1.1.7) petra; urgency=low
+
+  * Improve KDE Solid action
+
+ -- Frédéric Gaudet <fred@linuxmint.com>  Thu, 14 Nov 2013 17:59:04 +0100
+
+adkstick (1.1.6) petra; urgency=low
+
+  * Fix KDE regression
+
+ -- Frédéric Gaudet <fred@linuxmint.com>  Wed, 13 Nov 2013 15:55:11 +0100
+
+adkstick (1.1.5) petra; urgency=low
+
+  * Fixed filename not properly selected when space characters present in the path
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 08 Nov 2013 15:10:13 +0000
+
+adkstick (1.1.4) petra; urgency=low
+
+  * Fix desktop file
+
+ -- Frédéric Gaudet <fred@linuxmint.com>  Fri, 08 Nov 2013 10:07:05 +0100
+
+adkstick (1.1.3) petra; urgency=low
+
+  * Changed icon to usb-creator
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 07 Nov 2013 16:05:46 +0000
+
+adkstick (1.1.2) petra; urgency=low
+
+  * Use python -u to fix progressbar not being updated..
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 04 Nov 2013 12:43:14 +0000
+
+adkstick (1.1.1) petra; urgency=low
+
+  * Added udisk dep
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 25 Oct 2013 14:24:29 +0100
+
+adkstick (1.1.0) petra; urgency=low
+
+  * Fixed broken expander resizing the window..
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 08 Oct 2013 10:10:26 +0100
+
+adkstick (1.0.9) petra; urgency=low
+
+  * Switched to GTK3
+  * Fixed threading and progress bar not updating
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 08 Oct 2013 09:45:07 +0100
+
+adkstick (1.0.8) petra; urgency=low
+
+  * Better progress handling, fixed threating
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 30 Aug 2013 16:45:05 +0100
+
+adkstick (1.0.7) olivia; urgency=low
+
+  * Add format capability
+  * Add dynamic USB device list
+  * Application doesn't quit if there's no USB key plugged
+  * Full command line support
+  * KDE integration
+  * Check ISO size before trying to write
+  * Add some debugging message
+  * Application doesn't quit after dialogs
+  * Updated man page
+
+ -- Frédéric Gaudet <fred@linuxmint.com>  Tue, 20 Aug 2013 15:44:29 +0200
+
+adkstick (1.0.6) olivia; urgency=low
+
+  * 1.0.6
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 03 May 2013 15:14:05 +0100
+
+adkstick (1.0.5) olivia; urgency=low
+
+  * Percentage of completion written in progressbar
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 15 Feb 2013 13:08:04 +0000
+
+adkstick (1.0.4) nadia; urgency=low
+
+  * Added Nemo integration
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 23 Jan 2013 12:16:10 +0000
+
+adkstick (1.0.3) nadia; urgency=low
+
+  * Debranded application name
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 13 Nov 2012 13:35:58 +0000
+
+adkstick (1.0.2) nadia; urgency=low
+
+  * Fixed capitalization in glade file
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 24 Oct 2012 16:39:01 +0100
+
+adkstick (1.0.1) nadia; urgency=low
+
+  * Replaced ImageWriter window titles with adkstick
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 23 Oct 2012 16:22:06 +0100
+
+adkstick (1.0.0) nadia; urgency=low
+
+  * Bumped version
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 23 Oct 2012 14:16:39 +0100
+
+adkstick (0.1.3-1linuxmint3) nadia; urgency=low
+
+  * Initial nadia release
+  * Change authentication to policykit
+  
+ -- Frédéric Gaudet <fred@linuxmint.com>  Tue, 25 Sep 2012 22:44:39 +0200
+
+adkstick (0.1.3-1linuxmint2) maya; urgency=low
+
+  * Added KDE launcher
+  * Removed depdencies on Gnome Keyring and HAL
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 7 Jun 2012 11:37:00 +0000
+
+adkstick (0.1.3-1linuxmint1) lisa; urgency=low
+
+  * Removed branding
+  * Added .iso to list of accepted extensions
+  * Added comment in .desktop file
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 23 Jan 2012 11:24:00 +0000
+
+adkstick (0.1.3-0ubuntu5) oneiric; urgency=low
+
+  * switch from 1K to 1M blocksize to speed up the data transfer, thanks to 
+    Neil Mayhew <neil_mayhew@users.sourceforge.net> for the fix (LP: #790981) 
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Tue, 04 Oct 2011 12:11:27 +0200
+
+adkstick (0.1.3-0ubuntu4) karmic; urgency=low
+
+  * revert the changes to the pipe commands, they completely break interaction
+    with the shell wrapper and make adkstick completely non-functional. the
+    shell in the pipes is needed for the wrapper script that uses watch to
+    generate input for the progress bar.
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Tue, 27 Oct 2009 12:09:25 +0100
+
+adkstick (0.1.3-0ubuntu3) karmic; urgency=critical
+
+  * lib/adkstick.py: New patch to handle spaces in image path (LP: #366607)
+     - This patch fixes a possible command-injection security error, which is
+       the reason for the urgency=critical.
+     - Removed encapsulation in quotes from line 101, as described in the lower
+       change, because that would fail if the path contained quotes.
+     - Used a proper argument list instead of string in both Popen statements.
+     - Changed shell=True to shell=False because it is no longer needed.
+
+ -- Christopher Pavlina <pavlina.chris@gmail.com>  Sat, 17 Oct 2009 22:55:27 -0400
+
+adkstick (0.1.3-0ubuntu2) karmic; urgency=low
+
+  [ Siegfried-Angel Gevattder Pujals ]
+  * debian/control:
+     - Move website to Homepage field.
+     - Add a Dependency on python-glade2 (LP: #370297).
+     - Bump Standards-Version to 3.8.1.
+  * share/applications/adkstick.desktop:
+     - Use "gksu" instead of "gksudo" (LP: #376427).
+  * debian/po, debian/rules, debian/install, debian/control:
+     - Install all translations available on Launchpad.
+  * Fix debian/watch, and little changes to debian/adkstick.1.
+  
+  [ Mike Szczys ]
+  * Applied patch to handle spaces in image path (LP: #366607)
+     - lib/adkstick.py: line 101: encapsulated source in double
+       quotes so that it can be used with "ls -l" and "dd" commands
+       even if the path includes spaces.
+
+ -- Siegfried-Angel Gevatter Pujals <rainct@ubuntu.com>  Fri, 12 Jun 2009 13:50:59 +0200
+
+adkstick (0.1.3-0ubuntu1) jaunty; urgency=low
+
+  * New upstream, fixes for (LP: #363992):
+     - make all dialogs modal and transient for the main dialog
+     - name emergency and success buttons properly in the glade file
+     - make close function fall back to gtk.main_quit() so that clicking close
+       on emergency and success popups actually ends all subprocesses
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Mon, 20 Apr 2009 13:34:08 +0200
+
+adkstick (0.1.2-0ubuntu1) jaunty; urgency=low
+
+  * new upstream bugfix release (approved by mobile RM for universe)
+    - disable buttons that can cause confusion during write
+    - de-uglify header image if win size is growing through long device names
+    - add proper signal handling for dd subprocess so dd ends properly when
+      clicking the close button
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Fri, 17 Apr 2009 18:22:34 +0200
+
+adkstick (0.1.1-0ubuntu1) jaunty; urgency=low
+
+  * Initial release.
+
+ -- Oliver Grawert <ogra@ubuntu.com>  Sun, 06 Jul 2008 17:09:42 +0200
